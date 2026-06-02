@@ -54,6 +54,10 @@ export default defineConfig(
 		settings: { perfectionist: { partitionByComment: true, type: "natural" } },
 	},
 	{
+		files: ["src/cli.ts"],
+		rules: { "n/hashbang": "off" },
+	},
+	{
 		extends: [jsonc.configs["flat/recommended-with-json"]],
 		files: ["**/*.json"],
 	},
