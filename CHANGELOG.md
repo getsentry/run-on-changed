@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.3.0](///compare/0.2.0...0.3.0) (2026-06-02)
+
+### Features
+
+- log impacted files and pipeline info via debug-for-file ([#16](undefined/undefined/undefined/issues/16)) d738d29, closes #15
+
 ## [0.2.0](///compare/0.1.1...0.2.0) (2026-06-02)
 
 ### Features
