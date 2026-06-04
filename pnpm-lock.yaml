@@ -76,8 +76,8 @@ importers:
         specifier: 9.1.7
         version: 9.1.7
       knip:
-        specifier: 5.71.0
-        version: 5.71.0(@types/node@24.12.4)(typescript@5.9.3)
+        specifier: 5.88.1
+        version: 5.88.1(@types/node@24.12.4)(typescript@5.9.3)
       lint-staged:
         specifier: 16.4.0
         version: 16.4.0
@@ -2671,8 +2671,8 @@ packages:
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
 
-  knip@5.71.0:
-    resolution: {integrity: sha512-hwgdqEJ+7DNJ5jE8BCPu7b57TY7vUwP6MzWYgCgPpg6iPCee/jKPShDNIlFER2koti4oz5xF88VJbKCb4Wl71g==}
+  knip@5.88.1:
+    resolution: {integrity: sha512-tpy5o7zu1MjawVkLPuahymVJekYY3kYjvzcoInhIchgePxTlo+api90tBv2KfhAIe5uXh+mez1tAfmbv8/TiZg==}
     engines: {node: '>=18.18.0'}
     hasBin: true
     peerDependencies:
@@ -3542,6 +3542,10 @@ packages:
     resolution: {integrity: sha512-v3Xu+yuwBXisp6QYTcH4UbH+xYJXqnq2m/LtQVWKWzYc1iehYnLixoQDN9FH6/j9/oybfd6W9Ghwkl8+UMKTKQ==}
     engines: {node: '>=0.8.0'}
     hasBin: true
+
+  unbash@2.2.0:
+    resolution: {integrity: sha512-X2wH19RAPZE3+ldGicOkoj/SIA83OIxcJ6Cuaw23hf8Xc6fQpvZXY0SftE2JgS0QhYLUG4uwodSI3R53keyh7w==}
+    engines: {node: '>=14'}
 
   unconfig-core@7.5.0:
     resolution: {integrity: sha512-Su3FauozOGP44ZmKdHy2oE6LPjk51M/TRRjHv2HNCWiDvfvCoxC2lno6jevMA91MYAdCdwP05QnWdWpSbncX/w==}
@@ -6096,14 +6100,13 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  knip@5.71.0(@types/node@24.12.4)(typescript@5.9.3):
+  knip@5.88.1(@types/node@24.12.4)(typescript@5.9.3):
     dependencies:
       '@nodelib/fs.walk': 1.2.8
       '@types/node': 24.12.4
       fast-glob: 3.3.3
       formatly: 0.3.0
       jiti: 2.7.0
-      js-yaml: 4.2.0
       minimist: 1.2.8
       oxc-resolver: 11.20.0
       picocolors: 1.1.1
@@ -6111,6 +6114,8 @@ snapshots:
       smol-toml: 1.6.1
       strip-json-comments: 5.0.3
       typescript: 5.9.3
+      unbash: 2.2.0
+      yaml: 2.9.0
       zod: 4.4.3
 
   levn@0.4.1:
@@ -7251,6 +7256,8 @@ snapshots:
 
   uglify-js@3.19.3:
     optional: true
+
+  unbash@2.2.0: {}
 
   unconfig-core@7.5.0:
     dependencies:
